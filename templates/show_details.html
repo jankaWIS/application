@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--https://stackoverflow.com/questions/58922922/flask-reading-text-file-and-view-it-in-html-page-as-lines -->
+<html>
+    <head>
+        <title>Personal details</title>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/all">All</a> the people</li>
+            </ul>
+        </nav>
+
+        <h1>Personal details</h1>
+            <h2>Personal json</h2>
+                <pre>{{json_name|safe}}</pre>
+
+            <h2>Details</h2>
+        <!--    <div>-->
+        <!--        <ul>-->
+        <!--            -->
+        <!--           <li> <pre>{{json_key|safe}}</pre>:  <pre>{{json_item|safe}}</pre></li>-->
+        <!--        -->
+        <!--        </ul>-->
+        <!--    </div>-->
+
+            <pre>{{full_list|safe}}</pre>
+    </body>
+</html>

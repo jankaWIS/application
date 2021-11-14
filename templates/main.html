@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Home</title>
+</head>
+
+<body>
+    <h1>People's search engine</h1>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/all">All</a> the people</li>
+        </ul>
+    </nav>
+
+    <h2>HW</h2>
+    <p>
+        To see the code for listing all the people and their name on a command line, see the <a href="../list_students.py">following link</a>.
+    </p>
+    <p>
+        To see the code for listing all the people and their name on a command line with a search keyword, see the <a href="../list_students_search_engine.py">following link</a>.
+    </p>
+
+    <h2>The task</h2>
+    <div>
+        <p>
+            The description of the task is described here <a href="https://github.com/Code-Maven/wis-advanced-python-2021-2022">https://github.com/Code-Maven/wis-advanced-python-2021-2022</a> but because some of you may not have access to this directory, find the instructions below.
+        </p>
+
+        <h3>Assignments</h3>
+
+        <p>The followig 3 assignments are all preparations to create the 4th assignment. I think the best would be to create one after the other and reuse the code from the earlier steps later on, but if you go straight to step 4 that's also fine by me. You can jump right to the 4th assignment and do that.</p>
+
+    <p>You can store the solutions in the same git repository where you put the HTML pages in the previous assignment or in a totally new repository.
+    Do NOT copy the data files as they might contain information (e.g. phone numbers, email addresses) that other student do not want to show publicly.
+    Your code can assume that the files are in a directory next to your code that you have the following layout of directories on your computer:</p>
+
+    <div style="background-color: silver; max-width: 600px; font-style: italic">
+        course/ <br>
+            &emsp; wis-advanced-python-2021-2022/          # the clone of this repo<br>
+            &emsp; application/                            # the repo where your application is.<br>
+
+    </div>
+
+        <h4>List all the people on the command line</h4>
+
+        <p>Write a command line script that receives a path to a directory (the students directory of this repository) and can list the name of all the people after reading the JSON files.</p>
+
+        <h4>List people on the web</h4>
+        <ul>
+            <li>Build a page that will list all the people in abc order.</li>
+            <li>Each name is a link.</li>
+            <li>When clicking on the link display all the details of the student.</li>
+        </ul>
+
+        <h4>Command line search engine</h4>
+
+        <p>Improve the first script so in addition to the path it will also receive a search term. It should print the names of the student only of any of the data fields match the given text.</p>
+        <h4>Student search engine</h4>
+        <ul>
+            <li>Build a search engine that allows you to type in some text and you will list the names of all the students from the students/ directory of this repository that match the criteria in any of their fields.</li>
+            <li>Sort the list in abc order.</li>
+            <li>Turn each name into a link and when you click on a name, show all the details of the person.</li>
+            <li>If it is a URL, convert it into a link.</li>
+        </ul>
+    </div>
+
+</body>
+<footer style="position:fixed; bottom:0">
+Designed by @JK.
+</footer>
